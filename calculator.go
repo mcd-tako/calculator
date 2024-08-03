@@ -5,5 +5,5 @@ package calculator
 
 // Add takes two numbers and return the result
 func Add(a, b float64) float64 {
-	return a + b
+	return a - b
 }
