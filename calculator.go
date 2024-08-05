@@ -1,5 +1,5 @@
 // Package calculator does simple calculations
-// Author: 火の玉
+// Author: Tiago Macedo Cesar
 // Date: Aug 3 2024, 08:40h
 package calculator
 
@@ -11,4 +11,9 @@ func Add(a, b float64) float64 {
 // Subtract takes two numbers and return the result
 func Subtract(a, b float64) float64 {
 	return a - b
+}
+
+// Multiply takes two numbers and return the result
+func Multiply(a, b float64) float64 {
+	return a * b
 }
